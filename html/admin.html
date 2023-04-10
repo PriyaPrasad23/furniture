@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Page</title>
+    <link rel="stylesheet" type= "text/css" href="/static/css/styles.css">
+</head>
+<body>
+
+
+  <div class ="Product">
+    <form class="Product" action="/admin" enctype="multipart/form-data" method="post" >
+        <div class = "container">
+
+            <h3> Please fill this form to add product. </h3>
+         
+            <label for="Product Name"> <b>Product Name: </b> </label>
+            <input type="text" name="Name" placeholder="Enter Product Name" required>
+
+            <label for="Product Catergory"> <b>Product Catergory: </b> </label>
+            <input type="text" name="Catergory" placeholder="Enter the product Catergory" required>
+
+            <label for="Product Description"> <b>Product Description: </b> </label>
+            <input type="text" name="Description" placeholder="Enter the product Description" required>
+            
+            <label for="Stock"> <b>Product Stock: </b> </label>
+            <input type="text" name="Stock" placeholder="Number of stock" required>
+
+            <label for="Product Image"> <b>Product Image: </b> </label>
+            <input type="file" name="myImage" accept="image/*" placeholder="Upload the image" required>
+            
+         <button type="submit"> <b>Submit</b></button> 
+
+        </div>
+    </form>
+  
+ </div>
+</body>
+</html>
