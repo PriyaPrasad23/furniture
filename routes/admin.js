@@ -29,7 +29,6 @@ router.post("/", function(req, res, next){
         }
         res.redirect(200,'http://localhost:3000/admin');
     })
-    //adminPortal.insert();
 })
 
 // router.post('/upload', upload.single('myImage'), (req, res, next) => {
